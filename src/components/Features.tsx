@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface FeaturesProps {}
+type FeaturesProps = Record<string, never>;
 
 const Features: React.FC<FeaturesProps> = () => {
   const amenities = [
